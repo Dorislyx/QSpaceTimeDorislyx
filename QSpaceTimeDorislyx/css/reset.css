@@ -1,0 +1,21 @@
+/*
+   reset.css
+   <project>
+   auther:Doris_lyx
+   Created by Administrator on 2015-08-20.
+   Copyright 2015 Administrator. All rights reserved.
+*/
+
+/* ========== 重置样式str */
+body,h1,h2,h3,h4,h5,h6,p,dl,dd,ol,ul,form,
+pre,th,td,input,textarea,select{margin:0;padding:0; font-family: arial;}
+textarea{overflow:auto;resize:none;}
+table{border-collapse:collapse;}
+li{list-style:none;}
+a{text-decoration:none; cursor: pointer;}
+img{border:none;vertical-align:top;}
+em{font-style:normal;}
+input{border: none; outline: none;}
+.clear { zoom:1; }
+.clear:after { content:''; display:block; clear:both; }
+/* ========== 重置样式end */

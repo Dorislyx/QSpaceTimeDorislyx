@@ -1,0 +1,179 @@
+/*
+   mian.css
+   <project>
+   auther:Doris_lyx
+   Created by Administrator on 2015-08-20.
+   Copyright 2015 Administrator. All rights reserved.
+*/
+
+
+body{
+    background: url("../images/1.jpg") no-repeat center 0 fixed ;
+    padding-top: 40px;
+}
+
+.top{
+    top: 0px;
+    width: 100%;
+    height: 40px;
+    background-color:#333333;
+    position: fixed;
+    z-index: 999;
+    /*opacity: 0.6;*/
+    /*filter:alpha(opacity:60);*/
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.5));
+    text-align: center;
+    color: #ffffff;
+    font-size: 22px;
+    line-height: 40px;
+    font-family: "Lucida Grande", "宋体";
+}
+.header{
+    width: 960px;
+    height: 200px;
+    background-color: rgba(255,255,255,0.2);
+    margin: 0 auto;
+    border-radius: 0 3px;
+}
+.container{
+    width: 960px;
+    min-width: 960px;
+    margin: 0 auto;
+    position: relative;
+}
+.time_order_bar{
+    width: 50px;
+    min-height: 200px;
+    position: absolute;
+    left: 0;
+    top: 20px;
+   /* background-color: rgba(255,255,255,0.2);*/
+    z-index: 999;
+}
+.time_order_bar a{
+    height: 26px;
+    line-height: 26px;
+    padding-right: 5px;
+    font-size: 12px;
+    color: #cccccc;
+    text-decoration: none;
+    display: block;
+    border-right: 2px solid #c8c8c8;
+    border-right-color: rgba(200,200,200,.5);
+    text-shadow: 0 1px 1px rgba(0,0,0,.3);
+    text-align: right;
+}
+.time_order_bar a.current{
+    border-right-color: #7ebad0;
+    color: #7ebad0;
+    font-weight: bold;
+}
+.time_order_bar a:hover{
+    text-decoration: underline;
+}
+.time_order_bar a.current:hover{
+    text-decoration: none;
+}
+.content{
+    min-height: 2000px;
+    background: url("../images/spine.png") repeat-y 120px 0 ;
+    padding-top: 20px;
+    padding-left: 160px;
+    position: relative;
+}
+.content_year{
+    height: 30px;
+    line-height: 30px;
+    color: #a5a5a5;
+    text-shadow: 0 1px 1px rgba(0,0,0,.3);
+    font-weight: bold;
+    font-size: 14px;
+    position: relative;
+    left: -90px;
+    clear: both;
+}
+.content_month{
+    height: 30px;
+    line-height: 30px;
+    color: #a5a5a5;
+    text-shadow: 0 1px 1px rgba(0,0,0,.3);
+    font-weight: bold;
+    font-size: 14px;
+    position: relative;
+    left: -90px;
+    clear: both;
+}
+.content_journal{
+    width: 370px;
+    background: #fff;
+    height: auto;
+    margin: 20px 30px 0 0;
+    position: relative;
+    border-radius: 4px;
+    color: #888;
+}
+.content_journal_arrow{
+    position: absolute;
+    height: 0px;
+    border-color: transparent #e2e2e2 transparent transparent;
+    border-width: 10px 10px 10px 0;
+    border-style: dashed solid dashed dashed;
+    border-right-color: #fff;
+    left: -18px;
+    top: 20px;
+}
+.content_journal_dot{
+    width: 11px;
+    height: 11px;
+    border-radius: 11px;
+    position: absolute;
+    left: -44px;
+    top: 25px;
+    background: #fff;
+}
+.content_journal_dot_child{
+    width: 7px;
+    height: 7px;
+    border-radius: 7px;
+    position: absolute;
+    left: 2px;
+    top: 2px;
+    background: #b3dae9;
+}
+.content_journal_header{
+    padding: 15px 15px 0px 15px;
+}
+.content_journal_header_title{
+    height: 46px;
+    line-height: 46px;
+    font-size: 28px;
+    padding: 0px 0px 10px 56px;
+    position: relative;
+}
+.content_journal_header_title_lunar_calendar{
+    width: 46px;
+    height: 46px;
+    background-color: #b3dae9;
+    border-radius: 8px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    overflow: hidden;
+    color: #fff;
+    font-size: 27px;
+    line-height: 23px;
+}
+
+.content_journal_header_title_date{
+    height: 46px;
+    line-height: 46px;
+    font-size: 28px;
+    padding: 0px 0px 10px 56px;
+    position: relative;
+}
+.content_journal_media{
+
+}
+.content_journal_footer{
+
+}
